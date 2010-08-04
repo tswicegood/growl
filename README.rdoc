@@ -1,4 +1,3 @@
-
 = Growl
 
 Ruby growlnotify 'bindings'.
@@ -24,7 +23,7 @@ Ruby growlnotify 'bindings'.
   Growl.notify do |n|
     n.message = 'Hello World'
     n.icon = :jpeg
-    n.stick!
+    n.sticky!
   end
 
   # OR
